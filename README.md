@@ -10,7 +10,7 @@ Assorted codes for checking completion speed.
 - `<leader>T` to stop recording delays
 - `:TimingsSave examples/cmp-timings.json nvim-cmp` to export timings with a given title
 - `$julia -i -- timings.jl examples/coc-timings.json examples/cmp-timings.json` to plot timing series
-- call `timings()` from Julia REPL to refresh plots for updated data
+- call `timings(ARGS)` from Julia REPL to refresh plots for updated data
 
 <a href="https://github.com/oblitum/vim-timings/blob/master/LICENSE.md">
     <img src="https://www.gnu.org/graphics/gplv3-127x51.png" alt="GPLv3">

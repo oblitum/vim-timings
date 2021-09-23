@@ -52,6 +52,6 @@ function plots(jsons)
     plots
 end
 
-timings() = plot(plots(JSON.parsefile.(ARGS))..., layout=(length(ARGS), 1)) |> display
+timings(files) = plot(plots(JSON.parsefile.(files))..., layout=(length(files), 1)) |> display
 
-timings()
+timings(ARGS)
